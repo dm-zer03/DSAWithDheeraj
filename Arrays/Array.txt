@@ -1,0 +1,29 @@
+==> Operations in Arrays:
+=> Create 
+=> Input
+=> Output
+=> Update 
+
+==> Creating an Array:
+
+dataType arrName[]=new dataType[size];
+
+Creating an array:
+
+int marks[]= new int [50];
+
+int number[]={1,2,3};
+
+int moreNumbers[]={55,85,96};
+
+String fruits[]={"apple","mango","orange"};
+
+Arrays :Static size  means fixed size.
+
+Length property of an array : marks.length
+
+Passing arrays as argument :
+Arrays are pass by reference.
+
+Alogorithms :                           TC :                  SC:
+Linear Search (TC Prop Loop)            O(n)

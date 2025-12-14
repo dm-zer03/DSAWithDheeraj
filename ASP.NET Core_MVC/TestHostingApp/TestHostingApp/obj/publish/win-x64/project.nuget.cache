@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hvmILhW+aHQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\TestHostingApp\\TestHostingApp\\TestHostingApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mpiyu\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.10\\microsoft.net.illink.tasks.9.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

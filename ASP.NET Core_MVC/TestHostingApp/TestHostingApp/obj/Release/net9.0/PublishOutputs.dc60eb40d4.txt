@@ -1,0 +1,7 @@
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\TestHostingApp.exe
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\appsettings.json
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\TestHostingApp.dll
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\TestHostingApp.deps.json
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\TestHostingApp.runtimeconfig.json
+C:\Users\mpiyu\DSAWithJAVA\ASP.NET Core_MVC\TestHostingApp\TestHostingApp\obj\Release\net9.0\PubTmp\Out\TestHostingApp.pdb

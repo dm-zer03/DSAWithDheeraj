@@ -1,0 +1,44 @@
+﻿@model IEnumerable<MyFirstMVCWebApp.Models.Student>
+
+@{
+    ViewData["Title"] = "ShowStudents";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Dheeraj!</h1>
+
+    <p>learn about <a href="/Home/ShowStudents">Show All Student Details</a>.</p>
+
+
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome Dheeraj!</h1>
+        <p>Learn about all students below:</p>
+    </div>
+
+    <table class="table table-bordered table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Fee</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.rollNo</td>
+                    <td>@student.name</td>
+                    <td>@student.gender</td>
+                    <td>@student.age</td>
+                    <td>@student.course</td>
+                    <td>@student.fee</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

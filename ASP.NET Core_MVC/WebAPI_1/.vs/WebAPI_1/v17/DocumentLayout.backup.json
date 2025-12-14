@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\webapi_1\\webapi_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|solutionrelative:webapi_1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\webapi_1\\webapi_1\\models\\webapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|solutionrelative:webapi_1\\models\\webapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\webapi_1\\webapi_1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|solutionrelative:webapi_1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\webapi_1\\webapi_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1A1791E-8360-4701-8D1B-8C62F205E0DE}|WebAPI_1\\WebAPI_1.csproj|solutionrelative:webapi_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 307,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI_1\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI_1\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-22T04:43:23.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WebAPI_1\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WebAPI_1\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T03:18:23.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApidbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Models\\WebApidbContext.cs",
+              "RelativeDocumentMoniker": "WebAPI_1\\Models\\WebApidbContext.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Models\\WebApidbContext.cs",
+              "RelativeToolTip": "WebAPI_1\\Models\\WebApidbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T03:12:40.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI_1\\Program.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\WebAPI_1\\WebAPI_1\\Program.cs",
+              "RelativeToolTip": "WebAPI_1\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T02:58:01.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\views\\home\\viewdatatype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\views\\home\\viewdatatype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\views\\shared\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\views\\shared\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\models\\strongtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\models\\strongtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\myfirstmvcwebapp\\myfirstmvcwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A986AF-0815-418E-AA8B-CBFBA947A577}|MyFirstMVCWebApp\\MyFirstMVCWebApp.csproj|solutionrelative:myfirstmvcwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 307,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewDataType.cshtml",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Home\\ViewDataType.cshtml",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Views\\Home\\ViewDataType.cshtml",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Home\\ViewDataType.cshtml",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Views\\Home\\ViewDataType.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T16:05:07.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Home\\Index1.cshtml",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Views\\Home\\Index1.cshtml",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Home\\Index1.cshtml",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Views\\Home\\Index1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T15:28:34.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Shared\\Default.cshtml",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Views\\Shared\\Default.cshtml",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Shared\\Default.cshtml",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Views\\Shared\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T15:19:43.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Models\\Student.cs",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:37:21.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:33:33.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StrongType.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Models\\StrongType.cs",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Models\\StrongType.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Models\\StrongType.cs",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Models\\StrongType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:13:28.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-08T11:57:37.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstMVCWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\MyFirstMVCWebApp\\MyFirstMVCWebApp\\Program.cs",
+              "RelativeToolTip": "MyFirstMVCWebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:19:12.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

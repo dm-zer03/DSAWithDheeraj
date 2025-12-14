@@ -1,0 +1,238 @@
+Action Method Categories:
+ActionResult,
+RedirectActionResult,
+FileResult,
+Security.
+
+(Method Cannot Be Static In Controller)
+In Controller the Method return type can be:
+IactionResult,
+String,
+ContentResult,
+EmptyResult,
+JsonResult,
+PartialViewResult,
+ViewResult
+ViewComponentResult 
+
+How to add View :
+View -> Controller_Folder ->ActionMethodName.cshtml
+
+----------------------------------------------------
+Model -> Create object model pass it in controller view(obj)
+Receive in that view @model MyFirstMVCWebApp.Models.Student (for Single) 
+Receive in that view @model IEnumerable<MyFirstMVCWebApp.Models.Student>(List Of object)
+using this 
+Use @Model.objeProperty 
+
+
+@Model -> A strongly typed method and recommended way for passing data. It allows for intelligent and compile time checking.
+
+@ViewData -> A Dictionary Object for passing data as key-value pairs. It Loosely typed ,A requiring casting in the view and lacks compile time checking .(Always goes in object type)
+ 
+@ViewBag -> Similar to ViewData. It provides  dynamic access to properties. It is also loosely typed and lacks compile time checking.
+
+@TempData -> Used to pass data from current controller to the next request TempData is backed by session state and useful in redirect scenarios.
+----------------------------------------------------------------------
+1.Attribute and Data Annotations
+2.Validation and Validation Summary
+3.Routing : Convetional Routing and Attribute Routing.
+ Convetional Routing : Romove the Default Routing from Program.CS and Add The new End Points.
+
+app.UseEndpoints(endPoints=>{
+ endpoints.MapControllerRoute(
+ name:"default",
+ pattern:"{controller=Home}/{action=Index}/{id?}");
+
+ endpoints.MapControllerRoute(
+ name:"Student",
+ pattern:"ShowStudent/{controller=Student}/{action=Index}/{id?}");
+
+ endpoints.MapControllerRoute(
+ name:"Student",
+ pattern:"CreateStudent/{controller=Student}/{action=Create}/{id?}");
+});
+like all can configure here.
+localHost/ShowStudent only-> Webpage of showStudent will load
+
+All changes we have to perform in Program.cs file.
+
+------------------------------------------------------------
+Attribute Routing :
+Just for to controller class 
+
+[Route("ShowStudents")]
+public IActionResult Index(){
+  return View(student);
+}
+
+[Route("Edit/{id?}")] -> ? Means Optional if you missed then you have to put the value.
+public IActionResult Edit(){
+  return View(student);
+}
+
+localHost/ShowStudent only-> Webpage of showStudent will load index webpages from student controller.
+
+You can use this route directly in href="ShowStudents",no need to write
+/Student/Index  Use Case : Hacker will not know which contoller and method is this.Search Engine Optimizations.
+---------------------------------------
+DbContext Configuration
+
+-> OnConfiguring : Configure database connection.
+-> OnModelCreating : Coonfiguration relationship and model.
+-> DbContextoptions : Configures DbContext options.
+-----------------------------------------------------
+Type of Implementing EFCore:
+1.DataBase First -> Using Scaffold command (Model created from DB to C#).
+CMD: scaffold-dbcontext "ConnectionString" ServiceProvider outputdir Models / -force 
+-force is used when if you added new table or column for reflecting this into Code we use. 
+2.Code First -> Using Migration and update-database command.(C# -> DB)
+
+------------------------------------------------------
+//If We have CourseId and Have To Display Multiple Student Details.
+
+ViewModel : For sending multiple model to the view.
+because view accept only one model. 
+Create folder in Project :ViewModels
+Add a Class : Create the object of two classes.ClassNameLike :CourseWiseStudent.cs like MeaningFullName.
+
+public class CourseWiseStudent{
+ 
+ public Course crsDetails { get;set;} //One to Many(1-Course Many Student)
+ 
+ public List<Student> stuDetails { get;set;} // ie .List Of Student 
+
+}
+//When to Use FirstOrDefault(Single Record in table) and Where (List Of Records in tables)
+
+
+In Controller in View Method : 
+Basically will Initialise the above two variables.
+
+CourseWiseStudent cws=new CourseWiseDetails();
+cws.crsDetails=context.Courses.FirstOrDefault(item => item.CourseId ==id);
+cws.stuDetails=context.Students.Where(item => item.CourseId == id).ToList();
+
+return View(cws);
+
+Rest is same.
+public IActionResult ShowDetails(CourseWiseStudent cws){
+  if(cws!=null){
+     return View(cws);
+  }
+  else{
+       TempData["error"]="Something went wrong";
+       return RediredtToAction("Index");
+  }
+}
+ => In View 
+ How To use view model :
+ @Model.crsDetails.CourseId
+ @Model.stuDetails.StudentId like...
+
+-------------------------------------------------------------------
+Use Partial Views _ViewName
+<partial name="_Address"/> -> Using C# Partial Tag 
+@HTML.Partial("_Address") -> Using HTML Helper Class.
+
+
+<partial name="_Address" model="@Model"/>  -> To do Address Partial View 
+Dynamic.
+---------------------------------------------------------------------
+IformFile -> image upload enctype="multipart/formdata" 
+Always give relative path.Not absolute path.for that below is implementation.
+
+private readonly IWebHostEnvironment webHostEnvironment;
+pass this in constructor and initialised it.that give you wwwroot path location.
+
+string fn=Guid.NewGuid().ToString()+"_"+model.ImageName.FileName;
+string folder=Path.Combine(env.WebRootPath,"StudentPhoto"); //add in wwwroot path.
+string imagePath=Path.Combine(folder,fn)//Add with photo name.
+//upload in folder
+await model.ImageName.CopyToAsync(new FileStream(imagepath,FileMode.Create));
+
+//Now database store pull the date from viewmodel to model
+
+Student student = new Student(){
+  Name =model.name;
+  Dob=model.Dob;
+  Email=model.Email,
+  ImageName=fn
+};
+
+await context.Students.AddAsync(student);
+context.SaveChanges();
+---------------------------------------------------------------------
+Session : add Session and get session
+for directly accessing in view :
+ 
+@using Microsoft.Asp.NetCore.Http
+@inject IHttpContextAccessor Accessor
+<h1> Welcome Mr.@Accessor HttpContext.Session.GetString("Name")</h1>
+ and after session service add 
+builder.Services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
+
+or get and controller and pass it thought ViewData,ViewBag and TempData in view.
+--------------------------------------------------------------------------
+ASP.NET Core Indentity Key Components:
+UserManager - user's CRUD
+RoleManager - Profile CRUD's
+SignInManager - Login and LogOut.
+
+UserManager:
+DataModels:
+IdentityUser,IndentityRole.
+IdentityDbContext: We have create extra .
+Extra Packages:
+Microsoft.AsoNetCore.Indentity.EntityFrameworkCore
+Microsoft.EntityFrameworkCore
+
+---
+public class Users:IndentityUsers{
+ //Cutomised Attributes
+}
+
+public class AppDbContext:IdentityDbContext<Users>{
+ public AppDbContext(DbContextOptions options) : base(options)
+}
+
+//If not extra attributes
+public class AppDbContext:IdentityUsers{
+ public AppDbContext(DbContextOptions options) : base(options)
+}
+
+When data is different from model then we create ViewModel and while setting values we use original model.
+Create Partial View and Add this in view
+@using Microsoft.AspNetCore.Indentity
+@inject SigninManager<Users> signInManager -> it means user is logged in.
+
+@if(signInManager.IsSignedin(User)){
+
+//LogOut
+
+}else{
+
+ //Login
+ //Register
+
+}
+
+Add the above in NavBar <partial name="_LoginPartial"/>
+
+var result =await userManager.CreateAsync(u,moder.password);
+
+WebAPI:
+1.Testing by manually in browser:
+Server name you will find in @WebAPI_1_HostAdress file http://localhost:5205/api/controller name
+
+2.Testing by using Swagger
+http://localhost:5205/Swagger hit the URL In Browser.(if you are using HTTP setting)
+
+Otherwise swagger with open automatically(IssExpress)
+
+Scaffold-DbContext "Server=PiyushPC-03;Database=WebAPIDb;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+
+
+

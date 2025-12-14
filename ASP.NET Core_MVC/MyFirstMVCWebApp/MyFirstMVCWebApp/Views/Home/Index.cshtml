@@ -1,0 +1,20 @@
+﻿@model MyFirstMVCWebApp.Models.Student
+ @* Recieving the model that sent by controller - @Model namespace.ModelName  *@
+ @* ctrl+/ *@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Dheeraj!</h1>
+    <h2>Student Details :</h2>
+    <h3>Student Name: @Model.name</h3>
+    <h3>Student Roll No :@Model.rollNo</h3>
+    <h3>Student Age: @Model.age</h3>
+    <h3>Student Gender: @Model.gender</h3>
+    <h3>Student Course: @Model.course</h3>
+    <h3>Student Fee: @Model.fee</h3>
+    <h3>The End !!!</h3>
+
+    @* <p>learn about <a href="https://learn.microsoft.com/aspnet/core">building web apps with asp.net core</a>.</p> *@
+</div>

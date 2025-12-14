@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\mango\\mango.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\mango\\mango.services.couponapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\mango\\mango.services.couponapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\mpiyu\\dsawithjava\\asp.net core_mvc\\mango\\mango.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F77B8A3-BDC4-42E7-843E-309537595B85}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 307,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Models\\Dto\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Models\\Dto\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Models\\Dto\\ResponseDto.cs",
+              "RelativeToolTip": "Mango.Services.CouponAPI\\Models\\Dto\\ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T11:12:34.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CouponAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "RelativeToolTip": "Mango.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T06:59:35.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Program.cs",
+              "RelativeToolTip": "Mango.Services.CouponAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T06:17:04.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mpiyu\\DSAWithJAVA\\ASP.NET Core_MVC\\Mango\\Mango.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Mango.Services.CouponAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T06:13:14.025Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
